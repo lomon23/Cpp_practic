@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     double a, b;
 
-    cout << "введи перше число: ";
+    cout << "бебра 123 введи перше число: ";
     cin >> a;
 
     cout << "Введи друге число: ";
