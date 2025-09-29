@@ -2,18 +2,25 @@
 using namespace std;
 
 int main(){
-    double a, b;
+    string name;
+    double b,c;
 
-    cout << "бебра 123 введи перше число: ";
-    cin >> a;
+    cout << "введи своє імя: ";
+    cin >> name;
 
-    cout << "Введи друге число: ";
+    cout << "введи перше число: ";
     cin >> b;
-
-    cout << "Сума: " << a + b << endl;
-    cout << "Різниця: " << a - b << endl;
-    cout << "Добуток: " << a * b << endl;
-    cout << "Ділення: " << a / b << endl;
     
+    cout << "Введи друге число: ";
+    cin >> c;
+
+
+    cout << "привіт " << name << endl;
+    cout << "Сума: " << b + c << endl;
+    cout << "Різниця: " << b - c << endl;
+    cout << "Добуток: " << b * c << endl;
+    cout << "Ділення: " << b / c << endl;
+    cout << "P:" << b+b+c+c << endl;
+    cout << "S:" << b*c << endl;
     return 0;
 }
